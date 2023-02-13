@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <html lang="es">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="oscar-adrian">
+    <meta name="Description" content="trabajo clase">
+    <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python">
+    <title>Valoraciones</title>
+    <style>
+    body{
+      background-color: black;
+      color:white;
+      text-align: center;
+    }
+    a{
+      color: white;
+    }
+    li{
+        display: inline;
+        margin: 40px;
+    }   
+    .img1{
+        width: 6%;
+        height: 6%;
+        float: right;
+    }
+    fieldset{
+            border-radius: 15%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 40%;
+            height: 10em;
+            width: 20%;
+        }
+        .img5{
+      position: absolute;
+      top:95%;
+      left: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header>
+        <nav>
+          <img src="../img/ezequiel.png" title="portada" alt="la imagen no carga" loading="lazy" class="img1">
+          <ul>
+          <li><a href="../index.html" title="inicio" target="_parent" rel="nofollow"><h1>Tatuu OsAd</h1></a></li>
+            <li><a href="formulario.html" title="formulario" target="_parent" rel="nofollow">Formulario</a></li>
+            <li><a href="comentarios.html" title="comentarios" target="_parent" rel="nofollow">Comentarios</a></li>
+            <li><a href="preguntasfrecuentes.html"  title="preguntasfrecuentes" target="_parent" rel="nofollow">Preguntas frecuentes</a></li>
+            <li><a href="nosotros.html"  title="atencion-cliente" target="_parent" rel="nofollow">Sobre nosotros</a></li>
+          </ul>
+        </nav>
+      </header>
+    <h1>Deja tu valoracion</h1>
+    <fieldset>
+        <form>
+        <label>Nombre:</label><br>
+        <input type="text"><br>
+        <label>Calificación:</label><br>
+        <select id="calificacion" name="calificacion">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="5">6</option>
+          <option value="5">7</option>
+          <option value="5">8</option>
+          <option value="5">9</option>
+          <option value="5">10</option>
+        </select><br>
+        <label>Comentario:</label><br>
+        <input id="comentario"></input><br>
+        <input type="submit" value="Enviar">
+    </form>
+</fieldset>
+<article class="img5">
+    <img src="../img/facebook.png" title="logo" alt="la imagen no carga" loading="lazy">
+    <img src="../img/gorjeo.png" title="logo" alt="la imagen no carga" loading="lazy">
+    <img src="../img/instagram.png" title="logo" alt="la imagen no carga" loading="lazy">
+  </article>
+  </body>
+</html>
